@@ -1,0 +1,52 @@
+body {
+    background-color: aqua;
+    box-sizing: border-box;
+  }
+    @media (max-width: 1200px) {
+        body {
+        background-color: orange;
+        }
+        body::after{
+            content: "Maxwidth 1200px";
+        }
+    }
+    @media (max-width: 992px) {
+        body {
+          background-color: green;
+        }
+        body::after{
+            content: "Maxwidth 992px";
+        }
+    }
+    @media (max-width: 768px) {
+        body {
+            background-color: blue;
+        }
+        body::after{
+            content: "Maxwidth 768px";
+        }
+    }
+    @media (max-width: 576px) {
+        body {
+            background-color: pink;
+        }
+        body::after{
+            content: "Maxwidth 576px";
+        }
+    }
+    @media (max-width: 576px) {
+        body {
+            background-color: purple;
+        }
+        body::after{
+            content: "Minwidth 576px";
+        }
+    }
+    @media (max-width: 1399px) {
+        body {
+            background-color: red;
+        }
+        body::after{
+            content: "Maxwidth 1399px";
+        }
+    }
